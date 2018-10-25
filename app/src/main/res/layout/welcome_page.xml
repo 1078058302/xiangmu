@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorA5E">
+
+    <ImageView
+        android:id="@+id/welcom_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/about" />
+
+        <Button
+            android:id="@+id/tiyan"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/welcome_bg"
+            android:text="立即体验"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_18"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
